@@ -1,0 +1,3 @@
+{
+  "schema": "{ \"name\": \"MyClass\", \"type\": \"record\", \"namespace\": \"com.acme.avro\", \"fields\": [ { \"name\": \"orderId\", \"type\": \"int\" }, { \"name\": \"orderLines\", \"type\": { \"type\": \"array\", \"items\": { \"name\": \"orderLines_record\", \"type\": \"record\", \"fields\": [ { \"name\": \"itemId\", \"type\": \"string\" }, { \"name\": \"quantity\", \"type\": \"int\" } ] } } } ]}"
+}
